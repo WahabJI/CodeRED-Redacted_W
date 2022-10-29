@@ -4,6 +4,7 @@ import Header from '../components/header/header'
 import OutboundSearchBar from '../components/searchbars/OutboundSearchBar'
 import DestinationSearchBar from '../components/searchbars/DestinationSearchBar'
 import styles from '../styles/Home.module.css'
+import Logo from '../components/logo/logo'
 
 //React page component for the homepage
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
+      <Logo/>
       <OutboundSearchBar/>
       <DestinationSearchBar/>
       <main className={styles.main}>
