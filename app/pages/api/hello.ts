@@ -13,3 +13,44 @@ export default function handler(
 ) {
   res.status(200).json({ name: 'John Doe' })
 }
+
+//init connection with Duffel
+const duffel = new Duffel({
+  token: 'duffel_test_ytq7QDzJXlXbsgBVntiQt1QkVH7geRomsKJsYTPuv-V',
+})
+
+//get request from NYC -> ATL and ATL -> NYC
+const test = duffel.offerRequests.create({
+  slices : [{
+      origin: "NYC",
+      destination: "ATL",
+      departure_date: "2021-06-21"
+    },{
+      origin: "ATL",
+      destination: "NYC",
+      departure_date: "2021-07-21"
+    }
+  ],
+
+  passengers: [{ type: "adult" }, { type: "adult" }, { age: 1 }],
+  cabin_class: "business",
+  return_offers: false
+})
+
+
+//grabbing OFFER_REQUEST_ID from promise and storing in list
+var id = await(await (test)).data.id;
+duffel.offers.list({
+  offer_request_id: id,
+  sort: 'total_amount'
+})
+
+//IDK WHAT IS GOING ON BUT APPARENTLY USE LIST GENERATOR TO console.log EVERYTHING
+const allOffers = duffel.offers.listWithGenerator({ offer_request_id: id})
+    
+async function wtf(){
+  for await (const offer of allOffers) {
+    console.log("Offer " + offer.data.id + " costs " + offer.data.total_amount + " " + offer.data.total_currency) 
+  }
+}
+wtf();
