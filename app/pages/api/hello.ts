@@ -14,6 +14,8 @@ export default function handler(
   res.status(200).json({ name: 'John Doe' })
 }
 
+import { Duffel } from '@duffel/api'
+
 //init connection with Duffel
 const duffel = new Duffel({
   token: 'duffel_test_ytq7QDzJXlXbsgBVntiQt1QkVH7geRomsKJsYTPuv-V',
