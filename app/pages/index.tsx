@@ -12,6 +12,8 @@ import TripButton from '../components/button/tripButton'
 import styles from '../styles/Home.module.css'
 import Logo from '../components/logo/Logo'
 
+import type { NextPage } from 'next'
+import LoginForm from '../components/loginForm/login-form'
 //React page component for the homepage
 export default function Home() {
   return (
@@ -36,7 +38,7 @@ export default function Home() {
 
         </div>
       </div>
-
   </div>
+  
   );
 }
