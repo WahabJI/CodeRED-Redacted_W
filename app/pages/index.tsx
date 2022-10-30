@@ -41,6 +41,8 @@ export default function Home() {
         <button>add a new book</button>
       </form>
       <h2 className="text-marine text-center text-3xl font-semibold mt-52">Personalize Your Suggestions.</h2>
+
+      <h2 id="#activities" className="text-marine text-center text-3xl font-semibold mt-36 mb-4">Personalize Your Suggestions.</h2>
       <Budget></Budget>
       <Activities></Activities>
   
