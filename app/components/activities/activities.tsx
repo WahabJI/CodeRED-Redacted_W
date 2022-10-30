@@ -6,7 +6,7 @@ import ActivityButton from '../button/activityButton';
 const Activities = (props:any) => {    
     return (
         <div>
-            <h4 className="text-marine text-center text-xl font-semibold -mt-8">
+            <h4 className="text-marine text-center text-xl font-semibold">
                 {/* <div className="flex flex-row w-full justify-center">
                 <Image className = "relative block mb-2.5" src = "/wallet.svg" alt="..." width={24} height={24}/>
                 </div> */}
