@@ -12,13 +12,15 @@ const Budget = (props:any) => {
                 Choose Your Budget
             </h3>
             <div className="flex flex-row justify-center w-full">
-                <div className="flex flex-row justify-center w-full gap-x-24 ml-0.5 mb-5">
-                    <Image className = "relative block mb-4" src = "/backpack.svg" alt="..." width={24} height={24}/>
-                    <Image className = "relative block mb-4" src = "/luggage.svg" alt="..." width={24} height={24}/>
-                    <Image className = "relative block mb-4" src = "/shopping.svg" alt="..." width={24} height={24}/>
+                <div className="flex flex-row justify-center gap-x-16 pb-16 mx-auto">
+                    <Image className = "relative block mb-7 right-0.25" src = "/backpack.svg" alt="..." width={24} height={24}/>
+                    <Image className = "relative block mb-7 left-2" src = "/luggage.svg" alt="..." width={24} height={24}/>
+                    <Image className = "relative block mb-7 left-2.5" src = "/shopping.svg" alt="..." width={24} height={24}/>
+                    
+                    <BudgetButton>
+                    </BudgetButton>
                 </div>
-                <BudgetButton>
-                </BudgetButton>
+
             </div>
         </div>
     );
