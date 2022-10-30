@@ -2,12 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from '../components/header/header'
-import OutboundSearchBar from '../components/searchbars/OutboundSearchBar'
-import DestinationSearchBar from '../components/searchbars/DestinationSearchBar'
-import DepartDate from '../components/searchbars/DepartDate'
-import ArrivalDate from '../components/searchbars/ArrivalDate'
-import SearchButton from '../components/button/searchButton'
-import TripButton from '../components/button/tripButton'
+import SearchBar from '../components/searchbars/searchbar'
+import tripButton from '../components/button/tripButton'
 import { UseUser } from '@auth0/nextjs-auth0/dist/frontend/use-user'
 import Budget from '../components/budget/budget'
 import Activities from '../components/activities/activities'
@@ -33,25 +29,13 @@ export default function Home() {
       </div>
 
       <Logo/>
-      <div className="rounded-lg shadow-lg border-solid border-2 border-inherit box-border content-center absolute inset-x-0 ml-80 mr-80 left-12 right-12 h-40 w-min -mt-9">
-        <div className="flex flex-row justify-center gap-x-2.5 mx-10 mt-4">
-          <OutboundSearchBar/>
-          <DestinationSearchBar/>
-          <DepartDate/>
-          <ArrivalDate/>
-          <SearchButton/>
-        </div>
-        <div className="flex flex-row justify-left gap-x-2.5 mx-10">
-          <TripButton>
-          </TripButton>
-          </div>
-      </div>
-      <h2 className="text-marine text-center text-3xl font-semibold mt-52">Personalize Your Suggestions.</h2>
-      
-      <Budget></Budget>
 
+      <SearchBar></SearchBar>
+
+      <h2 className="text-marine text-center text-3xl font-semibold mt-52">Personalize Your Suggestions.</h2>
+      <Budget></Budget>
       <Activities></Activities>
- 
+  
     </div>
   );
 }

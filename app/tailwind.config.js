@@ -16,8 +16,10 @@ module.exports = {
       },
       w: {
         '98': '26rem',
+      },
+      gap: {
+        'x-18': '4.7rem',
       }
-
     },
   },
   plugins: [],
