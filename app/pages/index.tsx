@@ -5,6 +5,9 @@ import OutboundSearchBar from '../components/searchbars/OutboundSearchBar'
 import DestinationSearchBar from '../components/searchbars/DestinationSearchBar'
 import DepartDate from '../components/searchbars/DepartDate'
 import ArrivalDate from '../components/searchbars/ArrivalDate'
+import SearchButton from '../components/button/searchButton'
+import TripButton from '../components/button/tripButton'
+
 
 import styles from '../styles/Home.module.css'
 import Logo from '../components/logo/Logo'
@@ -22,14 +25,19 @@ export default function Home() {
       </Head>
       {/* <Header/> */}
       <Logo/>
-      <div className="flex flex-row justify-center gap-x-2.5">
-        <OutboundSearchBar/>
-        <DestinationSearchBar/>
-        <DepartDate/>
-        <ArrivalDate/>
+      <div className="rounded-lg shadow-lg border-solid border-2 border-inherit box-border content-center absolute inset-x-0 ml-80 mr-80 left-12 right-12 h-40 w-min">
+        <div className="flex flex-row justify-center gap-x-2.5 mx-10 mt-5">
+          <OutboundSearchBar/>
+          <DestinationSearchBar/>
+          <DepartDate/>
+          <ArrivalDate/>
+          <SearchButton/>
+        </div>
+        <div className="flex flex-row justify-left gap-x-2.5 mx-10">
+          <TripButton/>
+
+        </div>
       </div>
-      <main>
-      </main>
   </div>
   
   );
