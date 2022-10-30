@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'navy': '#343b5e',
         'marine': '#354b45',
+        'deep_marine': '#155342',
         'aqua': '#6bd6bb',
       },
       w: {
