@@ -9,6 +9,8 @@ import ArrivalDate from '../components/searchbars/ArrivalDate'
 import SearchButton from '../components/button/searchButton'
 import TripButton from '../components/button/tripButton'
 import { UseUser } from '@auth0/nextjs-auth0/dist/frontend/use-user'
+import Budget from '../components/budget/budget'
+import Activities from '../components/activities/activities'
 
 import styles from '../styles/Home.module.css'
 import Logo from '../components/logo/Logo'
@@ -16,7 +18,7 @@ import Logo from '../components/logo/Logo'
 import type { NextPage } from 'next'
 import LoginForm from '../components/loginForm/login-form'
 //React page component for the homepage
-export default function Home() {
+export default function Home() {  
   return (
     <div className={styles.container}>
       <Head>
@@ -39,23 +41,25 @@ export default function Home() {
         <div className="flex flex-row justify-left gap-x-2.5 mx-10">
           <TripButton>
           </TripButton>
-          <label className="text-black text-base font-semibold block relative text-right ml-0.5 mt-6">
+          {/* <label className="text-black text-base font-semibold block relative text-right ml-0.5 mt-6">
             Roundtrip
           </label>
-          <TripButton>
+          <TripButton onChange='handleChangeOW();' value='2'>
           </TripButton>
           <label className="text-black text-base font-semibold block relative text-right ml-0.5 mt-6">
             One-Way
           </label>
-          <TripButton>
+          <TripButton onChange='handleChangeMC();' value='3'>
           </TripButton>
           <label className="text-black text-base font-semibold block relative text-right ml-0.5 mt-6">
             Multi-City
-          </label>
-        </div>
-          
       </div>
+      <h2 className="text-marine text-center text-3xl font-semibold mt-52">Personalize Your Suggestions.</h2>
+      
+      <Budget></Budget>
+
+      <Activities></Activities>
+ 
   </div>
-  
   );
 }

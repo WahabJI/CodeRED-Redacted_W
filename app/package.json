@@ -11,6 +11,7 @@
   "dependencies": {
     "@auth0/nextjs-auth0": "^1.9.2",
     "@duffel/api": "^1.17.0",
+    "@headlessui/react": "^1.7.3",
     "bootstrap": "^5.2.2",
     "duffel": "^0.0.2",
     "firebase": "^9.13.0",
