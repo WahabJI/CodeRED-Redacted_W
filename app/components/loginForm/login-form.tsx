@@ -35,7 +35,9 @@ export default function LoginForm() {
             <div className="mb-3">
               <Field className="form-control" id="password" name="password" placeholder="Password" type="password" />
             </div>
-            <button type="submit" className="btn btn-primary">Login</button>
+            <a href="/"
+          className="px-4 py-2 text-blue-100 no-underline bg-navy rounded hover:bg-blue-600 hover:underline hover:text-blue-200">Log In
+          </a>
           </Form>
         </Formik>
       </div>
