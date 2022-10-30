@@ -20,12 +20,15 @@ export default function Home() {
       </Head>
       {/* <Header/> */}
       <Logo/>
-      <div className="flex flex-row justify-center gap-x-2.5">
-        <OutboundSearchBar/>
-        <DestinationSearchBar/>
-        <DepartDate/>
-        <ArrivalDate/>
+      <div className="rounded-lg shadow-lg border-solid border-2 border-inherit box-border content-center absolute inset-x-0 ml-96 mr-96 h-40 w-min">
+        <div className="flex flex-row justify-center gap-x-2.5 mx-10 mt-5">
+          <OutboundSearchBar/>
+          <DestinationSearchBar/>
+          <DepartDate/>
+          <ArrivalDate/>
+        </div>
       </div>
+
   </div>
   );
 }
