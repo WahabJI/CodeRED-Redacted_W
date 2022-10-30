@@ -5,7 +5,7 @@ import BudgetButton from '../button/budgetButton'
 const Budget = (props:any) => {    
     return (
         <div>
-            <h3 className="text-marine text-center text-xl font-semibold mt-8 mb-4">
+            <h3 className="text-marine text-center text-xl font-semibold mb-4">
                 {/* <div className="flex flex-row w-full justify-center">
                     <Image className = "relative block mb-2.5" src = "/wallet.svg" alt="..." width={24} height={24}/>
                 </div> */}
@@ -20,7 +20,6 @@ const Budget = (props:any) => {
                     <BudgetButton>
                     </BudgetButton>
                 </div>
-
             </div>
         </div>
     );
