@@ -8,7 +8,7 @@ import { useState } from 'react'
     return (
         <div>
         <RadioGroup value={plan} onChange={setPlan}>
-                <div className="flex flex-row gap-5 ml-1 mt-6">
+                <div className="flex flex-row gap-x-9 ml-1 mt-6 mr-3">
                     <RadioGroup.Option value="roundtrip">
                     {({ checked }) => (
                         <span className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Roundtrip</span>

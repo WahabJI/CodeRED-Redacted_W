@@ -9,7 +9,7 @@ import TripButton from '../button/tripButton'
 const SearchBar = () => {
     return(
         <div className="rounded-lg shadow-lg border-solid border-2 border-inherit box-border content-center absolute mx-auto left-12 right-12 h-40 w-min -mt-16">
-            <div className="flex flex-row justify-center gap-x-2.5 mx-10 mt-4">
+            <div className="flex flex-row justify-center gap-x-4 mx-10 mt-4">
                 <OutboundSearchBar/>
                 <DestinationSearchBar/>
                 <DepartDate/>
