@@ -34,7 +34,7 @@ export default function Home() {
         <Logo/>
   
         <SearchBar></SearchBar>
-        <h2 className="text-marine text-center text-3xl font-semibold mt-36">Personalize Your Suggestions.</h2>
+        <h2 className="text-marine text-center text-3xl font-semibold mt-40">Personalize Your Suggestions.</h2>
         <Budget></Budget>
         <Activities></Activities>
     
