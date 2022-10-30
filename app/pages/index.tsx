@@ -29,7 +29,7 @@ export default function Home() {
   
         <div className="absolute top-0 right-0 font-semibold text-white mr-6 mt-2.5 text-lg rounded-lg hover:text-xl hover:underline">
               <Image className = "relative inline-block mr-1.5 -mt-0.5" src = "/login.svg" alt="..." width={24} height={24}/>
-              <Link href="/api/auth/login" className="no-underline text-white">login</Link>
+              <Link href="/api/auth/login" className="no-underline text-white">Login</Link>
         </div>
         <Logo/>
   
@@ -51,7 +51,7 @@ export default function Home() {
 
       <div className="absolute top-0 right-0 font-semibold text-white mr-6 mt-2.5 text-lg rounded-lg hover:text-xl hover:underline">
             <Image className = "relative inline-block mr-1.5 -mt-0.5" src = "/logout.svg" alt="..." width={24} height={24}/>
-            <Link href="/api/auth/logout" className="no-underline text-white">logout: {user.name
+            <Link href="/api/auth/logout" className="no-underline text-white">Logout: {user.name
             }</Link>
       </div>
 
