@@ -1,7 +1,8 @@
-# CodeRED-[Redacted] PROS Track
+# Team [REDACTED], CodeRED HACKATHON 2022
+## PROS Track 
 Create an application that personalizes and/or optimizes the ecommerce shopping experience of a consumer.
 
-Team [REDACTED], CodeRED HACKATHON 2022
+## Team Members
 Tariq Achor Zyad - Front End
 Wahab Javed - Full Stack
 Grace Anne Rabano - Front End Debugger
