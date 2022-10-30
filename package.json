@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@duffel/api": "^1.17.0",
+    "duffel": "^0.0.2"
+  }
+}
