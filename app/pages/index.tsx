@@ -6,6 +6,8 @@ import DestinationSearchBar from '../components/searchbars/DestinationSearchBar'
 import DepartDate from '../components/searchbars/DepartDate'
 import ArrivalDate from '../components/searchbars/ArrivalDate'
 import SearchButton from '../components/button/searchButton'
+import TripButton from '../components/button/tripButton'
+
 
 import styles from '../styles/Home.module.css'
 import Logo from '../components/logo/Logo'
@@ -28,6 +30,10 @@ export default function Home() {
           <DepartDate/>
           <ArrivalDate/>
           <SearchButton/>
+        </div>
+        <div className="flex flex-row justify-left gap-x-2.5 mx-10">
+          <TripButton/>
+
         </div>
       </div>
 
