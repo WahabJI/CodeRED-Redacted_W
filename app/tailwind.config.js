@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'navy': '#343b5e',
         'teal': '#8df2d9',
+        'aqua': '#6bd6bb',
       }
 
     },
