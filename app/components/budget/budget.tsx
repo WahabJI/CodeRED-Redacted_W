@@ -6,9 +6,6 @@ const Budget = (props:any) => {
     return (
         <div>
             <h3 className="text-marine text-center text-xl font-semibold mb-4">
-                {/* <div className="flex flex-row w-full justify-center">
-                    <Image className = "relative block mb-2.5" src = "/wallet.svg" alt="..." width={24} height={24}/>
-                </div> */}
                 Choose Your Budget
             </h3>
             <div className="flex flex-row justify-center w-full">

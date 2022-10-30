@@ -18,9 +18,9 @@ const Activities = (props:any) => {
                     <Image className = "relative block mb-4 left-2" src = "/hiker.svg" alt="..." width={24} height={24}/>
                     <Image className = "relative block mb-4 right-6" src = "/beach.svg" alt="..." width={24} height={24}/>
                     <Image className = "relative block mb-4 right-9" src = "/nightlife.svg" alt="..." width={24} height={24}/>
-                    <Image className = "relative block mb-4 right-10" src = "/adventure.svg" alt="..." width={24} height={24}/>
-                    <Image className = "relative block mb-4 right-10" src = "/nature.svg" alt="..." width={24} height={24}/>
-                    <Image className = "relative block mb-4 right-10" src = "/shopping.svg" alt="..." width={24} height={24}/>
+                    <Image className = "relative block mb-4 right-12" src = "/adventure.svg" alt="..." width={24} height={24}/>
+                    <Image className = "relative block mb-4 right-12" src = "/nature.svg" alt="..." width={24} height={24}/>
+                    <Image className = "relative block mb-4 right-11" src = "/shopping.svg" alt="..." width={24} height={24}/>
 
                     <ActivityButton>
                     </ActivityButton>
