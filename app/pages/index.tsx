@@ -8,7 +8,8 @@ import DepartDate from '../components/searchbars/DepartDate'
 import ArrivalDate from '../components/searchbars/ArrivalDate'
 import SearchButton from '../components/button/searchButton'
 import TripButton from '../components/button/tripButton'
-import BudgetButton from '../components/button/budgetButton'
+import Budget from '../components/budget/budget'
+import Activities from '../components/activities/activities'
 
 
 import styles from '../styles/Home.module.css'
@@ -55,16 +56,11 @@ export default function Home() {
         </div>        
       </div>
       <h2 className="text-marine text-center text-3xl font-semibold mt-52">Personalize Your Suggestions.</h2>
-      <h3 className="text-marine text-center text-xl font-semibold mt-8">
-        <div className="flex flex-row w-full justify-center">
-        <Image className = "relative block mb-2.5" src = "/wallet.svg" alt="..." width={24} height={24}/>
-        </div>
-        Choose Your Budget
-      </h3>
-      <div className="flex flex-row justify-left gap-x-2.5 mx-10">
-          <BudgetButton></BudgetButton>
-      </div>
-  
+      
+      <Budget></Budget>
+
+      <Activities></Activities>
+ 
   </div>
   );
 }
