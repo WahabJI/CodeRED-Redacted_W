@@ -1,4 +1,5 @@
 # Team [REDACTED], CodeRED HACKATHON 2022
+![alt-text](https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/271/386/datas/full_width.png)
 ## PROS Track: 
 Create an application that personalizes and/or optimizes the ecommerce shopping experience of a consumer.
 
