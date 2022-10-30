@@ -1,5 +1,11 @@
-# CodeRED-Redacted
+# CodeRED-[Redacted] PROS Track
+Create an application that personalizes and/or optimizes the ecommerce shopping experience of a consumer.
+
 Team [REDACTED], CodeRED HACKATHON 2022
+Tariq Achor Zyad - Front End
+Wahab Javed - Full Stack
+Grace Anne Rabano - Front End Debugger
+Herson Mercado Cruz - Debugger & Designer
 
 # What to have Installed?
 1. Make sure you've installed [Node.js](https://nodejs.org/en/download/)
