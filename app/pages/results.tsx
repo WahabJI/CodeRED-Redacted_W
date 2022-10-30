@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from '../components/header/header'
-import ResultCards from '../components/resultCards/resultCards'
+import ResultCards from '../components/resultCards/ResultCards'
 
 import styles from '../styles/Home.module.css'
 import Logo from '../components/logo/Logo'
@@ -19,7 +19,8 @@ export default function Home() {
         </Head>
         
         <div className="absolute top-0 right-0 font-semibold text-white mr-6 mt-2.5 text-lg rounded-lg hover:text-xl">
-            <Link href="window.history(-1)" className="no-underline text-white">Back to Search</Link>
+            <Image className = "relative inline-block mr-1.5 -mt-0.5" src = "/backArrow.svg" alt="..." width={24} height={24}/>
+            <Link href="/" className="no-underline text-white">Back to Search</Link>
         </div>
 
         <Logo/>
