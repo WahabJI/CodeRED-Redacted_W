@@ -10,7 +10,11 @@
     "web": "webpack"
   },
   "dependencies": {
+    "@duffel/api": "^1.17.0",
+    "bootstrap": "^5.2.2",
+    "duffel": "^0.0.2",
     "firebase": "^9.13.0",
+    "formik": "^2.2.9",
     "netlify-identity-widget": "^1.9.2",
     "next": "13.0.0",
     "react": "18.2.0",
