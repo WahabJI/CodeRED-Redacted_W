@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "app",https://github.com/tachorzy/CodeRED-Redacted/pull/3/conflict?name=app%252Fpackage.json&ancestor_oid=19e82fe4593e481b9ed8bf7aab45ba53aa83d42e&base_oid=2ee2d09708049b353c9b6835faf89479281003f1&head_oid=7a5ecb37cf5bccf4511b83cfa7cef56585783e0b
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,6 @@
     "web": "webpack"
   },
   "dependencies": {
-    "@duffel/api": "^1.17.0",
-    "bootstrap": "^5.2.2",
-    "duffel": "^0.0.2",
     "firebase": "^9.13.0",
     "formik": "^2.2.9",
     "netlify-identity-widget": "^1.9.2",
