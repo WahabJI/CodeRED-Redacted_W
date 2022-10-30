@@ -19,6 +19,9 @@ module.exports = {
       },
       gap: {
         'x-18': '4.7rem',
+      },
+      right: {
+        '0.25': '0.095rem',
       }
     },
   },
