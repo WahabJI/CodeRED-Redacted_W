@@ -12,6 +12,7 @@ module.exports = {
         'deep_marine': '#155342',
         'shallow_marine': '#37685b',
         'aqua': '#6bd6bb',
+        'shallow_aqua': '#a0e9d6',
       },
       w: {
         '98': '26rem',
