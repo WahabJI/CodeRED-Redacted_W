@@ -9,6 +9,7 @@
     "web": "webpack"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^1.9.2",
     "@duffel/api": "^1.17.0",
     "bootstrap": "^5.2.2",
     "duffel": "^0.0.2",
