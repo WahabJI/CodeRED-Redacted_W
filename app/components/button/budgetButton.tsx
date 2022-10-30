@@ -2,26 +2,26 @@ import { RadioGroup } from '@headlessui/react'
 import { useState } from 'react'
 
 //this component is for the header at the top of the screen
-    const tripButton = (props: any) => {    
+    const budgetButton = (props: any) => {    
     let [plan, setPlan] = useState('startup')
 
     return (
-        <div>
+        <div className='ml-96 mr-96 absolute left-52'>
         <RadioGroup value={plan} onChange={setPlan}>
-                <div className="flex flex-row gap-5 ml-1 mt-6">
-                    <RadioGroup.Option value="roundtrip">
+                <div className="flex flex-row justify-center w-full gap-5 ml-2 mt-4 mb-4">
+                <RadioGroup.Option value="Backpacker">
                     {({ checked }) => (
-                        <span className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Roundtrip</span>
+                        <p className={checked ? 'rounded-lg w-20 h-30 border-2 border-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Backpacker</p>
                     )}
                     </RadioGroup.Option>
-                    <RadioGroup.Option value="one-way">
+                    <RadioGroup.Option value="Mid-Range">
                     {({ checked }) => (
-                        <span className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>One-Way</span>
+                        <p className={checked ? 'rounded-lg w-20 h-30 border-2 border-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Mid-Range</p>
                     )}
                     </RadioGroup.Option>
-                    <RadioGroup.Option value="multi-city">
+                    <RadioGroup.Option value="Splurger">
                     {({ checked }) => (
-                        <span className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Multi-City</span>
+                        <p className={checked ? 'rounded-lg w-20 h-30 border-2 border-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Splurger</p>
                     )}
                     </RadioGroup.Option>
                 </div>
@@ -37,4 +37,4 @@ import { useState } from 'react'
     );
 };
 
-export default tripButton; 
+export default budgetButton;
