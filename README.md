@@ -1,12 +1,12 @@
 # Team [REDACTED], CodeRED HACKATHON 2022
-## PROS Track 
+## PROS Track: 
 Create an application that personalizes and/or optimizes the ecommerce shopping experience of a consumer.
 
-## Team Members
-Tariq Achor Zyad - Front End
-Wahab Javed - Full Stack
-Grace Anne Rabano - Front End Debugger
-Herson Mercado Cruz - Debugger & Designer
+## Team Members:
+* Tariq Achor Zyad - Front End
+* Wahab Javed - Full Stack
+* Grace Anne Rabano - Front End Debugger
+* Herson Mercado Cruz - Debugger & Designer
 
 # What to have Installed?
 1. Make sure you've installed [Node.js](https://nodejs.org/en/download/)
