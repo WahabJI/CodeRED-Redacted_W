@@ -17,6 +17,7 @@ export default function Home() {
       </Head>
       {/* <Header/> */}
       <Logo/>
+      {/* <div className="flex"></div> */}
       <OutboundSearchBar/>
       <DestinationSearchBar/>
       <main className={styles.main}>
