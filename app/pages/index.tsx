@@ -34,8 +34,11 @@ export default function Home() {
           <SearchButton/>
         </div>
         <div className="flex flex-row justify-left gap-x-2.5 mx-10">
-          <TripButton/>
-
+          <TripButton>
+          </TripButton>
+          <label className="text-black text-base font-semibold block relative text-right ml-0.5 mt-6">
+            Roundtrip
+          </label>
         </div>
       </div>
   </div>

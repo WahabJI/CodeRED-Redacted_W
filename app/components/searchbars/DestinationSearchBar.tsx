@@ -17,7 +17,7 @@ const DestinationSearchBar = () => {
         <div>
             <form>
                 {/*the margins and padding below is very hardcoded rn */}
-                <label className = "text-semibolded text- ml-1 relative block text-left" htmlFor = "destination">To:</label>
+                <label className = "text-semibolded ml-1 relative block text-left" htmlFor = "destination">To:</label>
                 <input 
                     className="bg-grey-200 border-2 border-grey-200 rounded-lg p-1 pl-1" 
                     type="text" 

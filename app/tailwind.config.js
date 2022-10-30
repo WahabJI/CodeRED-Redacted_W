@@ -10,6 +10,7 @@ module.exports = {
         'navy': '#343b5e',
         'marine': '#354b45',
         'deep_marine': '#155342',
+        'shallow_marine': '#37685b',
         'aqua': '#6bd6bb',
       },
       w: {
