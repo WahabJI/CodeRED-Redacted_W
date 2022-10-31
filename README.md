@@ -6,7 +6,7 @@ Create an application that personalizes and/or optimizes the ecommerce shopping 
 ## Team Members:
 * Tariq Achor Zyad - Front End
 * Wahab Javed - Full Stack
-* Grace Anne Rabano - Front End Debugger
+* Grace Anne Rabano - Front End & Debugger
 * Herson Mercado Cruz - Debugger & Designer
 
 # What to have Installed?
